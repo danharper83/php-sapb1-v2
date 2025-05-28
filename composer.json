@@ -1,9 +1,14 @@
 {
-    "name": "danharper83/php-sapb1-v2",
+    "name": "syedhussim/php-sapb1-v2",
     "description": "PHP integration package for SAP Business One",
     "type": "library",
     "require": {
         "php": ">=7.4",
         "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SAPb1\\": "SAPb1/"
+        }
     }
-} 
+}
